@@ -1,11 +1,13 @@
 var $button = $('.menu-btn');
-
+var openBTN = $('header');
 $button.on('click', function(e){
     e.preventDefault();
-    if( $button.hasClass('open') ){
+    console.log('one');
+    if( openBTN.hasClass('header-opened') ){
       $button.removeClass('open');
       $button.addClass('close');
-    } else {
+    }else{
+        console.log('hello');
       $button.removeClass('close');
       $button.addClass('open');
     }

@@ -35,36 +35,36 @@
 </head>
 <body class="bg-header" >
 	<div class="loaderArea">
-   <div class="loader"> 
-   	<div class='container'>
-    <div class='spinner'>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-        <div class='item'></div>
-    </div>
-</div>
+		<div class="loader">
+   			<div class='container'>
+				<div class='spinner'>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+					<div class='item'></div>
+				</div>
+			</div>
 
-<svg>
-    <defs>
-        <filter id='goo'>
-            <feGaussianBlur in='SourceGraphic' stdDeviation='8' result='blur' />
-            <feColorMatrix in='blur' mode='matrix' values='
-                                                           1 0 0 0 0 
-                                                           0 1 0 0 0
-                                                           0 0 1 0 0
-                                                           0 0 0 50 -8' result='goo' />
-            <feBlend in='SourceGraphic' in2='goo' />
-        </filter>
-    </defs>
-</svg></div>
-</div>
+			<svg>
+				<defs>
+					<filter id='goo'>
+						<feGaussianBlur in='SourceGraphic' stdDeviation='8' result='blur' />
+						<feColorMatrix in='blur' mode='matrix' values='
+																	   1 0 0 0 0
+																	   0 1 0 0 0
+																	   0 0 1 0 0
+																	   0 0 0 50 -8' result='goo' />
+						<feBlend in='SourceGraphic' in2='goo' />
+					</filter>
+				</defs>
+			</svg></div>
+	</div>
 
-	<!-- <section class="bg_top"> -->
+	 <!--<section class="bg_top">-->
 	<header class="hidden" id="js-header">
 		<h1 class="logo"><a href="#" id="up"><img src="img/logo.png" alt="" class="logooo" height="150%"></a></h1>
 		<nav><ul>
@@ -85,7 +85,8 @@
 		<div class="video-container">
 			<div class="video ">
 				<div class="peephole" id="video">
-					<img src="" alt="" id="poster" data-video="" />
+					<img src="" alt="" id="poster" data-video="img/me2.jpg" />
+					<!--<img src="img/me2.jpg" alt="" data-video="" />-->
 				</div>
 			</div>
 		</div>
@@ -131,25 +132,44 @@
 		
 	<section id="contact" class="contact">
 		<a href="#" class="close animate desktop-only" data-animatedIcon="close"><i></i> close</a>
+		<div class="content-info">
+			<div class="application_form">
+				<h1>Get a Price</h1>
+				<div class="content">
+					<div class="input-box">
+						<label for="your-name">Your name</label>
+						<input type="text" id="your-name">
+					</div>
+					<div class="input-box">
+						<label for="emeil">Emeil</label>
+						<input type="text" id="emeil">
+					</div>
+					<div class="input-box">
+						<label for="your-phone">Phone</label>
+						<input type="text" id="your-phone">
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="mycontact">
 			<div class="socialmy">
 				<a href=""><img class="socialmyimg" src="img/Phone-icon.png" alt="0632652477"></a>
-				<p>Номер "+380632652477" <br> "+380675827291"</p>
+				<!--<p>Номер "+380632652477" <br> "+380675827291"</p>-->
 			</div>
 			<div class="socialmy">
 				<a href=""><img src="img/Telegram_Messenger.png" alt="" class="socialmyimg"></a>
-				<p>написать в Telegram</p>
+				<!--<p>написать в Telegram</p>-->
 			</div>
 			<div class="socialmy">
 				<a href=""><img src="img/fb.png" alt="" class="socialmyimg"></a>
-				<p>Связаться через Messeger</p>
+				<!--<p>Связаться через Messeger</p>-->
 			</div>
 
 			<div class="socialmy"><a href=""><img src="img/1200x630bb.png" alt="" class="socialmyimg"></a>
-				<p>Электронная почта</p>
+				<!--<p>Электронная почта</p>-->
 			</div>
 			<div class="socialmy"><a href=""><img src="img/insta.png" alt="" class="socialmyimg"></a>
-				<p>instagram</p>
+				<!--<p>instagram</p>-->
 			</div>
 
 		</div>
